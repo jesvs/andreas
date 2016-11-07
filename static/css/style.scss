@@ -1,0 +1,599 @@
+@import "compass";
+
+$bg: saturate(#392d24, 10);
+$strongLightText: darken(#f1ede6, 15);
+$lightText: #6b5f4e;
+$navButton: lighten($bg, 6);
+$navActive: #ab3627;
+$contentBg: lighten($bg, 85);
+$glowColor: darken($bg, 5);
+
+$headerFont: 'Julius Sans One';
+$fontSize: 13px;
+$lineHeight: 20px;
+
+$width: 960px;
+$cols: 12;
+$col: $width / $cols;
+$logoWidth: 796px;
+$logoHeight: 190px;
+
+h1,h2,h3,h4,ul,ol,dl,p,form,dd {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+h1,h2,h3,h4,p {
+  padding-bottom: $lineHeight;
+}
+html, body {
+  background-color: $bg;
+}
+body {
+  background: $bg url(../images/bg.jpg) repeat top center;
+  font: $fontSize/#{$lineHeight} Helvetica, Arial, sans-serif;
+  color: $lightText;
+  h4, .important {
+    color: $strongLightText;
+  }
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  width: $width;
+  margin: auto;
+  min-height: 690px;
+}
+
+body.about nav li.about a,
+body.menu nav li.menu a,
+body.gallery nav li.gallery a,
+body.reviews nav li.reviews a,
+body.location nav li.location a {
+  color: #fff;
+  background-color: #81291e;
+  background-position: top;
+}
+
+header {
+  z-index: 1000;
+  position: relative;
+  .logo {
+    padding: 0;
+    margin: 0;
+    a {
+      display: block;
+      width: $logoWidth;
+      height: $logoHeight + $lineHeight;
+      background: url(../images/logo.png) no-repeat center bottom;
+      margin: auto;
+      text-indent: -9999px;
+    }
+  }
+  nav {
+    overflow: hidden;
+    margin-top: $lineHeight*2;
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+      &.current-menu-item {
+        a {
+          color: #fff;
+          background-color: #81291e;
+          background-position: top;
+        }
+      }
+    }
+    a {
+      font-family: $headerFont;
+      display: block;
+      float: left;
+      color: lighten($bg, 50);
+      font-size: round( $fontSize * 1.5 );
+      margin-right: 1px;
+      padding: $lineHeight;
+      height: 100px - $lineHeight * 4;
+      overflow: hidden;
+      &:hover {
+        color: #fff;
+        background-color: #81291e;
+        background-position: top;
+      }
+    }
+    a, .search {
+      @include border-radius(5px 5px 0 0);
+      background: #433122 url(../images/tabs.gif) repeat-x bottom;
+      @include transition-property('all');
+      @include transition-duration('150ms');
+      @include transition-timing-function('ease-in-out');
+    }
+    .search {
+      overflow: hidden;
+      height: 60px;
+      form {
+        text-align: right;
+        padding: 16px 15px 15px 16px;
+      }
+      input#s {
+        background: darken($bg, 2);
+        width: 190px;
+        @include border-radius(5px);
+        border: 1px solid darken($bg, 6);
+        border-bottom-color: lighten($bg, 3);
+        border-right-color: lighten($bg, 3);
+        color: $strongLightText;
+        padding: 4px 22px 4px 4px;
+        font-size: 16px;
+        margin: 0;
+        outline: none;
+      }
+      input.submit {
+        width: 16px;
+        height: 16px;
+        background: url(../images/search.png) no-repeat center;
+        border: 0;
+        position: absolute;
+        margin-left: -22px;
+        margin-top: 6px;
+      }
+    }
+  }
+}
+#slideshow {
+  height: $lineHeight * 22;
+  overflow: hidden;
+  background: $bg url(../images/bg.png);
+  box-shadow: 0 -100px 150px $glowColor;
+  z-index: 1;
+}
+#controls {
+  width: $col * 12 + $lineHeight;
+  height: $lineHeight*4 - 16px;
+  position: absolute;
+  z-index: 500;
+  margin: -$lineHeight*4 0 0 -10px;
+  overflow: hidden;
+  padding-top: 16px;
+  @include border-radius(5px);
+  text-align: center;
+  .control {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background: url(../images/controls.png) no-repeat;
+    display: block;
+    cursor: pointer;
+  }
+  #ssprev {
+    margin-left: $lineHeight;
+    background-position: top left;
+    z-index: 1;
+    &:hover {
+      background-position: bottom left;
+    }
+  }
+  #ssnext {
+    margin-left: $col*12 - $lineHeight - 48px;
+    background-position: top right;
+    &:hover {
+      background-position: bottom right;
+    }
+  }
+  #ss_caption {
+    @include single-transition(opacity, 50ms, ease-in);
+    background: url(../images/70.png);
+    color: #fff;
+    font-family: 'IM Fell Great Primer', serif;
+    font-size: round($lineHeight*1.8);
+    font-style: italic;
+    font-weight: normal;
+    line-height: $lineHeight*2;
+    line-height: 2em;
+    height: $lineHeight*2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    &.fade {
+      opacity: 0;
+    }
+    &:empty {
+      opacity: 0;
+    }
+  }
+}
+.content {
+  h1.title {
+    text-align: center;
+  }
+  h2.ribbon {
+    background: url(../images/banner_ribbon.png) no-repeat center;
+    font-family: 'IM Fell Great Primer', serif !important;
+    text-transform: none !important;
+    font-size: 2em;
+    text-align: center;
+    color: white !important;
+    margin-bottom: $lineHeight;
+    line-height: 2.8em;
+  }
+  h3.category {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  img.alignleft, img[src$='#alignleft'] {
+    float: left;
+    margin: $lineHeight $lineHeight*2 $lineHeight 0;
+    @include border-radius(10px);
+    box-shadow: 0 0 5px darken($contentBg, 25);
+    border: 1px solid darken($contentBg, 25);
+  }
+  table.wines {
+    margin-bottom: $lineHeight*2;
+    width: 100%;
+    td.name {
+      font-weight: bold;
+      font-size: 120%;
+      padding-top: $lineHeight;
+      border-bottom: 1px dotted #ccc;
+    }
+  }
+  dl.menu {
+    overflow: hidden;
+    margin-bottom: $lineHeight;
+    dt {
+      background: url(../images/dots.png) repeat-x center $lineHeight - 4;
+      font-size: $fontSize + 2;
+      overflow: hidden;
+      .name, .price {
+        display: block;
+        background: $contentBg;
+        padding-bottom: 4px;
+      }
+      .name {
+        float: left;
+        padding-right: 4px;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+      .price {
+        float: right;
+        text-align: right;
+        padding-left: 4px;
+      }
+    }
+    dd {
+      margin: 0 0 $lineHeight 0;
+    }
+  }
+  min-height: 284px;
+  background: $contentBg;
+  @include border-radius(0 0 6px 6px);
+  box-shadow: 0 -80px 120px $glowColor;
+  &.single {
+    margin-bottom: $lineHeight * 6;
+    .body {
+      padding: $lineHeight*2;
+      ul,ol {
+        padding-left: $lineHeight*2;
+      }
+      h1,h2,h3,h4 {
+        font-family: $headerFont;
+        color: $bg;
+        text-transform: uppercase;
+      }
+      a {
+        color: $navActive;
+        text-decoration: underline;
+      }
+      .gallery {
+        overflow: hidden;
+        .photo {
+          padding: 4px;
+          float: left;
+          img {
+            box-shadow: 0 4px 8px lighten($bg, 30);
+          }
+          &.col1, &.col2 {
+            margin: 0 8px 8px 0;
+          }
+        }
+      }
+    }
+  }
+}
+.articles {
+  overflow: hidden;
+  padding-top: 88px;
+  background: url(../images/andreas-organic.png) no-repeat center 27px;
+  article {
+    width: $col * 4 - $lineHeight * 4;
+    padding: $lineHeight $lineHeight * 2;
+    text-align: center;
+    float: left;
+    margin-top: $lineHeight;
+    h2, .title {
+      font-family: $headerFont;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: $navButton;
+      letter-spacing: -0.1em;
+    }
+    img {
+      border-radius: 5px;
+      margin-bottom: $lineHeight;
+    }
+    p {
+      padding: 0;
+    }
+    .more {
+      margin: $lineHeight 0 $lineHeight * 2 0;
+      a {
+        display: block;
+        background: lighten($contentBg, 5);
+        border: 1px solid darken($contentBg, 5);
+        font-family: Anton, Arial;
+        border-radius: 5px;
+        color: desaturate(darken($contentBg, 60), 10);
+        box-shadow: 0 1px 1px desaturate(darken($contentBg, 50), 20);
+        text-transform: uppercase;
+        font-size: 14px;
+        width: 40%;
+        margin: auto;
+        padding: $lineHeight/4;
+        &:hover {
+          color: lighten($contentBg, 5);
+          background: desaturate(darken($contentBg, 40), 20);
+        }
+      }
+    }
+  }
+}
+dl.reviews {
+  dt {
+    padding-bottom: 2em;
+  }
+  dd {
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px dotted #a0a0a0;
+  }
+  .name, .date {
+    font-style: italic;
+  }
+  .stars {
+    color: #ff5722;
+  }
+}
+footer {
+  overflow: hidden;
+  padding: $lineHeight*2 $lineHeight*4;
+  background: url(../images/70.png);
+  color: lighten($lightText, 10);
+  img {
+    border-radius: 10px;
+  }
+  .aside {
+    float: left;
+    margin-right: $lineHeight*2;
+    overflow: hidden;
+    width: $width / 3 - $lineHeight;
+  }
+  .main {
+    overflow: hidden;
+    margin-left: $lineHeight;
+    .column {
+      float: left;
+      width: 50%;
+      margin-top: $lineHeight*2;
+      font-size: 120%;
+      dd {
+        margin-bottom: $lineHeight;
+      }
+    }
+  }
+  h1,h2,h3,h4 {
+    font-family: $headerFont;
+    color: $strongLightText;
+  }
+  section {
+    padding-bottom: $lineHeight*2;
+  }
+  aside {
+    width: $col*4 - $lineHeight*2;
+    margin-right: $col/2;
+    padding-right: $col/2;
+    float: left;
+    nav {
+      margin-bottom: $lineHeight*2;
+      ul {
+        list-style: none;
+        li {
+          a {
+            display: block;
+            @include background-image(linear-gradient(lighten($bg, 15), lighten($bg, 2)));
+            color: lighten($bg, 45);
+            padding: 15px;
+            font-family: $headerFont;
+            font-size: 20px;
+            letter-spacing: -0.08em;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+            border-radius: 5px;
+            text-shadow: 0 2px 0 $bg;
+            @include transition-property('all');
+            @include transition-duration('150ms');
+            @include transition-timing-function('ease-in-out');
+            &:hover {
+              @include background-image(linear-gradient($navActive, darken($navActive, 10)));
+              color: $strongLightText;
+            }
+          }
+        }
+      }
+    }
+    .main {
+      float: left;
+      overflow: hidden;
+      width: $col * 4 - 64 - $lineHeight;
+      p:first-child {
+        color: $strongLightText;
+      }
+    }
+  }
+  dt {
+    color: $strongLightText;
+  }
+  section.main {
+    float: left;
+    overflow: hidden;
+    width: $col*7 - $lineHeight*2;
+    .images {
+      img {
+        margin-right: $lineHeight;
+        border-radius: 5px;
+      }
+    }
+    .column {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+.copy {
+  clear: both;
+  padding: $lineHeight 0;
+  text-align: center;
+  background: url(../images/bg90.png);
+  color: lighten($bg, 40);
+  .container {
+    width: $width;
+    margin: auto;
+  }
+}
+.button {
+  display: block;
+  width: 20%;
+  @include background-image(linear-gradient($contentBg, darken($contentBg, 15)));
+  padding: 6px;
+  margin: $lineHeight 0;
+  text-align: center;
+  @include border-radius(2px);
+  color: lighten($bg, 20);
+  font-family: Anton, Arial;
+  text-transform: uppercase;
+  font-size: 16px;
+  box-shadow: 0 0 5px darken($bg, 5);
+  &:hover {
+    @include background-image(linear-gradient(darken($contentBg, 15), $contentBg));
+  }
+}
+.wpcr_clear.wpcr_power {
+  display: none;
+}
+img.sizefull {
+  border: 1px solid #ccc;
+  background: darken($contentBg, 5);
+  border-radius: 5px;
+  padding: $lineHeight/2;
+  box-shadow: 0 0 10px darken($contentBg, 20);
+  margin-bottom: $lineHeight;
+}
+img.aligncenter {
+  display: block;
+  margin: 0 auto $lineHeight auto;
+  border: 1px solid #ccc;
+  background: darken($contentBg, 5);
+  border-radius: 5px;
+  padding: $lineHeight/2;
+  box-shadow: 0 0 10px darken($contentBg, 20);
+  margin-bottom: $lineHeight;
+}
+img.alignleft {
+  display: block;
+  float: left;
+}
+q {
+  font-style: italic;
+}
+table#business_hours {
+  font-size: 16px;
+  width: 100%;
+  th {
+    text-align: right;
+    color: #887964;
+    text-transform: none;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-right: 1em;
+    color: #C7B498;
+  }
+  td {
+    vertical-align: top;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  td.day {
+    text-align: right;
+    color: #d6cab5;
+    padding-right: 0.5em;
+  }
+}
+
+footer {
+  .main {
+    .column.catering {
+      width: 40%;
+    }
+    .column.business_hours {
+      width: 60%;
+      h3 {
+	text-align: center;
+      }
+    }
+  } 
+}
+
+#simplemodal-overlay {
+  background-color: black;
+}
+#simplemodal-container a.modalCloseImg {
+  background: url(../images/x.png) no-repeat;
+  width: 25px;
+  height: 29px;
+  display: inline;
+  z-index: 10000;
+  position: absolute;
+  top: -15px;
+  right: -18px;
+  cursor: pointer;
+}
+.home-widgets {
+    padding: 40px 55px 0 55px;
+}
+
+#slideshow.tft::before {
+  display: block;
+  content: '';
+  background: url(http://www.andreasitalian.com/wp-content/uploads/2016/08/two-for-one-tuesday-stamp-white.png) no-repeat left top;
+  background-size: contain;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  right: $lineHeight;
+  top: $lineHeight;
+  z-index: 1000;
+}
