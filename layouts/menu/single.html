@@ -1,0 +1,10 @@
+{{ partial "header.html" . }}
+<div class="content single">
+  <div class="body">
+    {{ .Content }}
+    {{ range $.Site.Data.menu.categories }}
+      {{ partial "menu.html" . }}
+    {{ end }}
+  </div>
+</div>
+{{ partial "footer.html" . }}

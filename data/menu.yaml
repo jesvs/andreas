@@ -1,0 +1,259 @@
+---
+categories:
+  - title: Appetizers
+    dishes: true
+    items:
+      - name: CALAMARI FRITTI
+        price: $10.95
+        description: Crispi calamari served with a spicy marinara dipping sauce
+      - name: FRESH STEAMED MUSSELS
+        price: $9.95
+        description: Steeped in a spicy tomato broth
+      - name: SHRIMP STELLA
+        price: $10.95
+        description: Served in a creamy lobster sauce with fresh crab meat or served with a white wine lemon butter sauce
+      - name: FRIED MOZZARELLA
+        price: $6.99
+        description: Served with tomato marinara sauce
+      - name: PROSCIUTTO
+        price: $8.99
+        description: Prosciutto served with slices of mozzarella or with fresh slices of melon
+      - name: SMOKED SALMON
+        price: $7.99
+        description: Served with a side of diced onions, capers, balsamic, olive oil and lemons
+  - title: Salads
+    dishes: true
+    items:
+      - name: CESAR SALAD
+        price: $4.95
+        description: Romaine leaves tossed in a traditional Caesar dressing topped with croutons
+      - name: MOZZARELLA SALAD
+        price: $5.99
+        description: Fresh mozzarella with hearty tomatoes in basil, oregano and olive seasoning
+      - name: THREE CHEESE SALAD
+        price: $4.95
+        description: Mixed spring greens and tomatoes topped with Gorgonzola, parmesan and Pecorino romano cheese
+  - title: Pastas
+    dishes: true
+    items:
+      - name: LINGUINE
+        price: $11.95
+        description: With fresh basil and marinara sauce
+      - name: LINGUINE CARBONARA
+        price: $12.95
+        description: Egg yolk, cream, bacon and parmesan cheese
+      - name: LINGUINE PUTTANESCA
+        price: $12.95
+        description: Olive oil, capers, olives, bacon, fresh chopped tomatoes and anchovies
+      - name: LINGUINE ALFREDO
+        price: $13.95 w/chicken, $15.99 w/shrimp
+        description: Pasta in a classic Romano cheese and cream sauce with chicken or shrimp
+      - name: LINGUINE WITH SHRIMP
+        price: $15.95
+        description: Served with a pesto cream sauce with parmesan cheese
+      - name: LINGUINE BOLOGNESE
+        price: $13.99
+        description: Served with ground beef in portabello mushrooms covered with marina sauce and parmesan cheese
+      - name: ANGEL MUSSELS MARINARA
+        price: $12.99
+        description: Pasta with mussels in a tomato and white wine sauce
+      - name: VEGETARIAN ANGEL HAIR
+        price: $11.99
+        description: Wheat angel hair pasta served with fresh sautéed veggies
+      - name: ANGEL HAIR PASTA
+        price: $15.99
+        description: Pasta in a light cream sauce with shrimp, garnished with fresh vegetables and parmesan cheese
+      - name: PASTA ANDREA
+        price: $14.99
+        description: Penne pasta with chicken mushroom in a pesto cream sauce with ham and parmesan cheese
+      - name: ANDREA’S CANELONI
+        price: $14.99
+        description: Stuffed crab meat, spinach and 4 cheeses (gogonzola, ricotta, mozzarella, parmesan) Served in Alfredo cream sauce or marinara sauce
+      - name: GNOCCHI ANDREA
+        price: $14.99
+        description: Home made potato gnocchi scented with a touch of cinnamon and served with basil marinara or gorgonzola cream sauce
+      - name: VEAL TORTOLINI
+        price: $13.99
+        description: Pasta stuffed with veal served in a pink cream sauce with ham and parmesan
+      - name: RAVIOLI
+        price: $13.99
+        description: Stuffed with mushrooms and spinach served in a cream lobster sauce
+      - name: FRUTI DI MARI
+        price: $16.95
+        description: Linguine pasta, mixed seafood and fresh vegetables in a white wine sauce
+      - name: VICTOR’S RISSOTO
+        price: $14.99
+        description: Italian rice with slices of chicken breast, portobello mushrooms and shrimp served with capers in white wine and lemon-butter sauce
+      - name: CHICKEN PORTABELLO RISOTTO
+        price: $14.99
+        description: Italian rice with slices of chicken breast and portobello mushrooms served in a cream with parmesan cheese
+      - name: SEAFOOD RISOTTO
+        price: $15.99
+        description: Italian rice with calamari, mussels, shrimp and white fish in a light marinara sauce
+      - name: ITALIAN CLASSIC LASAGNA
+        price: $15.95
+        description: Prepared fresh daily with layers of pasta, Italian cheeses and our homemade meat sauce
+      - name: CRESPELLE
+        price: $13.99
+        description: Stuffed with ricotta, spinach, mozzarella cheese and topped with a cream sauce
+      - name: CAVATELLI
+        price: $13.95
+        description: Cavatelli pasta served with fresh tomato, basil, oregano, garlic and topped off with a sprinkle of fresh goat cheese
+      - name: PENNE ARRABIATA
+        price: $13.99
+        description: Tossed with chicken and tomato-basil sauce with crushed red pepper
+      - name: ITALIAN PENNE
+        price: $14.95
+        description: Served with fresh tomatoes, basil and italian sauce
+  - title: Entress
+    dishes: true
+    items:
+      - name: SAUTÉED SHRIMP
+        price: $16.99
+        description: Served in a white wine lemon-butter sauce or served a la diabla
+      - name: PAN SÉERED TILAPIA
+        price: $15.95
+        description: With a white wine, lemon-butter sauce with capers and shrimp or a la moda, olive oil, fresh basil and tomato
+      - name: GRILLED ATLANTIC SALMON FILET
+        price: $16.99
+        description: Served with creamy lobster sauce or a white wine, lemon-butter sauce
+      - name: CIOPINNO
+        price: $16.99
+        description: Seafood combination and vegetables
+      - name: EGG-PLANT PARMESAN
+        price: $13.99
+        description: With mozzarella, parmesan and marinara sauce and server with house vegetables
+      - name: PORK LOIN SCALOPPINE
+        price: $14.99
+        description: Served in a red wine demi-glazed sauce with green pepper corns and portobello mushrooms
+      - name: CHICKEN MILANESA
+        price: $14.99
+        description: Baked chicken served with a lemon-butter sauce
+      - name: GRILLED CHICKEN BREAST
+        price: $14.99
+        description: Sautée with vegetables
+      - name: CHICKEN PARMESAN
+        price: $15.95
+        description: Baked with mozzarella, parmesan and marinara sauce
+      - name: CHICKEN BREAST CORDON BLEU
+        price: $15.95
+        description: Covered with slices of ham and cheese, topped with a cream sauce
+      - name: SAUTÉE CHICKEN BREAST
+        price: $15.95
+        description: |
+          with choice of:
+          Marsala sauce with mushroome
+          Picatta sauce with white wine, lemon-butter sauce and capers
+          Demi-Glaze sauce with portobello mushrooms
+          Pizzaiola sauce, capers, olives, marinara, basil and oregano
+          Tomatillo marinara, toasted chiles and green tomatillo sauce
+      - name: RIB-EYED STEAK
+        price: $23.99
+        description: With portobello mushrooms in a red wine demi-glazed sauce or with devil sauce marinara, toasted chilies and green tomatillo sauce
+      - name: VEAL PARMESAN
+        price: $21.99
+        description: Baked with mozzarella and marinara sauce
+      - name: VEAL SCALOPPINE
+        price: $22.99
+        description: |
+          with choice of:
+          Marsala sauce with mushrooms
+          Picatta sauce with white wine, lemon-butter sauce and capers
+          With Prosciutto over a red winr demi-glazed sauce
+  - title: White Wines
+    wines: true
+    items:
+      - name: Salmon Creek White Zinfandel
+        price: $23
+        price_glass: $6.50
+        description: Spicy strawberry and citrus aromas with bright acidity and a touch of sweetness.
+      - name: Cadonini Pinot Grigio
+        price: $26
+        price_glass: $7
+        description: Lush and full-bodied with a light, fruity, finishing clean and tart.
+      - name: Colosi Bianco, Italy
+        price: $30
+        description: Ripe apricot and apple aromas and touch of acidity give good balance.
+      - name: Santa Carolina Sauvignon Blane, Chile
+        price: $29
+        description: Bright tropical fruits up front with a tart, citrus finish.
+      - name: Salmon Creek Chardonnay, California
+        price: $23
+        price_glass: $6.75
+        description: Tropical flavors with a touch of spice and a full-bodied finish.
+      - name: Arancio Chardonnay, Sicily
+        price: $30
+        description: Crisp apple flavors with sof acidity and ripe melon and honey aromas due to the blending of viognier.
+      - name: Chalone Monterey Chardonnay, California
+        price: $30
+        description: Citrus and green apple aromas are balanced with spice, carmel and vanilla on the finish.
+  - title: Red Wines
+    wines: true
+    items:
+      - name: Sartori Pinot Noir, Italy
+        price: $29
+        price_glass: $7.75
+        description: Expressive ripe red fruit aromas are forward and delicious while the wine finishes soft and supple.
+      - name: Castle Rock Pinot Noir,California
+        price: $30
+        description: A balance between tart cherry flavors and earthy aromas.
+      - name: Salmon Creek Merlot, California
+        price: $23
+        price_glass: $6.75
+        description: Smooth, subtle cherry and blueberry fruit leading into a finish of vanilla and chocolate.
+      - name: Cono Sur Merlot, Chile
+        price: $30
+        description: Dark, tart berry fruit, licorice and spice with an easy finish of sweet oak.
+      - name: Kris Pinot Noir, Italy
+        price: $36
+        description: Dark ruby red in color with purple hues. Shows aromas of ripe blackberries.
+      - name: Querciavalle Chianti Classico, Tuscany
+        price: $54
+        description: Ripe, full berry fruite, up front with cocoa and a touch of dryness on the finish.
+      - name: Penfolds Shiraz, Australia
+        price: $29
+        description: Red berry, plum and black pepper aromas mingled with cocoa and spice.
+      - name: Tierra Secreta Malbee, Argentina
+        price: $34
+        description: Dark with a taste of black currant, raspberry flavors.
+      - name: Viteo, Spain
+        price: $32
+        description: This 100% tempranillo wine shows bright cherry fruit balanced with acidity and earthy aromas finishing with a subtle nuttiness.
+      - name: Castelvero Barbera d’Asti, Italy
+        price: $34
+        description: Light bodied and tart with red cherry and cassis fruit and touch of minerality on the finish.
+      - name: Piccini, Chianti, Italy
+        price: $23
+        price_glass: $6.75
+        description: Tart red cherry and raspberry flavors finish with smoke, dusty earth.
+      - name: Castello D’Abola Chianti Classico, Italy
+        price: $32
+        description: Delicious cherry flavors with good acid and a touch of vanilla.
+      - name: Queretaro Chianti Classico, Italy
+        price: $32
+        description: Intense fruit aromas with rich, well-structured berry flavors.
+      - name: Centine Rosso, Italy
+        price: $32
+        description: Lots of structure from a base of Sangiovese supported by the fruit aromas of Merlot and Cabernet.
+      - name: Trivento Reserve Malbee, Argentina
+        price: $32
+        description: Dark, dry fruit and earthy aromas give this wine depth and complexity.
+      - name: Bogle Petite Syrah, California
+        price: $32
+        description: Blackberry and plum flavors start rich and finish with a hint of white pepper and oak.
+      - name: Antigal Uno Malbee, Argentina
+        price: $32
+        description: A velvety blend of two varietals that creates a medium body and smooth finish.
+      - name: Salmon Creek Cabernet Sauvignon
+        price: $23
+        description: Medium body with berry, olive and vanilla flavors for a well-balanced wine.
+      - name: Santa Carolina Reserve Cabernet
+        price: $33
+        description: Sweet black currants dominate the flavor white the finish brings soft spice aromas and tannic structure.
+      - name: Chateau St. Jean Cabernet Sauvignon, California
+        price: $32
+        description: A rich wine with lots of blackberry and cassis with aromas of tobacco and cocoa leading into a well-structured vanilla and oak finish.
+      - name: Cavicchioli, Lambrusco
+        price: $23
+        price_glass: $6.50
+        description: Smooth and lush. A delicious ‘amabile’ wine with an intense ruby red color, and a generous froth.

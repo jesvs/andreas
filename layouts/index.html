@@ -1,0 +1,91 @@
+{{ partial "header.html" }}
+<div class='slider' id='slideshow'>
+  {{ range $.Site.Data.images.slides }}
+  <img src="{{ .src }}" alt="{{ .alt }}">
+  {{ end }}
+</div>
+<div class='content'>
+  <section class='articles'>
+    <article>
+      <div class='excerpt'>
+        <p><img class="alignnone size-full wp-image-48" alt="traditional-cuisine" src="/images/traditional-cuisine.jpg" width="222"
+            height="120" /></p>
+        <h2>TRADITIONAL CUISINE</h2>
+        <p>Our food is prepared by Italian chefs with only the finest and freshest ingredients. Andrea&#8217;s Italian Restaurant
+          has a unique charm and everything you need to enjoy an authentic dining experience.</p>
+      </div>
+      <div class='more'><a href="/about/">Read More</a></div>
+    </article>
+    <article>
+      <div class='excerpt'>
+        <p><img src="/images/our-food.jpg" alt="our-food" width="222" height="120" class="alignnone size-full wp-image-50" /></p>
+        <h2>OUR FOOD</h2>
+        <p>Our cuisine is based on three basic principles: traditional Italian style – modern interpretation – use of quality
+          and fresh ingredients. There is no point in preparing food with cheap ingredients.</p>
+      </div>
+      <div class='more'><a href="/our-food/">Read More</a></div>
+    </article>
+    <article>
+      <div class='excerpt'>
+        <p><img class="alignnone size-full wp-image-82" src="/images/the-menu.jpg" alt="the-menu" width="222" height="120" /></p>
+        <h2>The Menu</h2>
+        <p>Every dish is prepared from scratch so in some cases this may require a little patience, but we can guarantee it
+          will be worth the wait! you will enjoy with the real italian taste.</p>
+      </div>
+      <div class='more'><a href="/menu/">Read More</a></div>
+    </article>
+  </section>
+</div>
+<footer>
+  <div class="aside">
+    <h2>Our wines</h2>
+    <p>
+      <a href="/wines"><br />
+        <img class="alignnone size-full wp-image-135" src="/images/wines.jpg" alt="wines" width="277" height="415" /></a>
+    </p>
+  </div>
+  <div class="main">
+    <h2>Special Place</h2>
+    <p><img class="alignnone size-full wp-image-136" src="/images/special-place.jpg" alt="special-place" width="455" height="238"
+      /></p>
+    <div class="column catering">
+      <h3>Catering Service</h3>
+      <ul>
+        <li>7260 Gaston Avenue</li>
+        <li>Dallas, Texas 75214</li>
+        <li>214-321-8800</li>
+      </ul>
+    </div>
+    <div class="column business_hours">
+      <h3>Business Hours</h3>
+      <table id="business_hours">
+        <tbody>
+          <tr>
+            <th>Sunday thru Thursday</th>
+            <td>5 p.m. to 9 p.m.</td>
+          </tr>
+          <tr>
+            <th>Friday</th>
+            <td>5 p.m. to 10 p.m.</td>
+          </tr>
+          <tr>
+            <th>Saturday</th>
+            <td>5 p.m. to 10:30 p.m.</td>
+          </tr>
+          <tr>
+            <th>Sundays</th>
+            <td>FREE Mimosas before 2 p.m.</td>
+          </tr>
+          <tr>
+            <th>Lunch Tuesday to Friday</th>
+            <td>11 a.m. to 2 p.m.</td>
+          </tr>
+          <tr>
+            <td colspan="2">Private parties or reunions call to reserve any day</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</footer>
+{{ partial "footer.html" }}

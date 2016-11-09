@@ -1,0 +1,37 @@
+<h2 class="ribbon">{{ .title }}</h2>
+
+{{ if .dishes }}
+<dl class="menu">
+  {{ range .items }}
+  <dt>
+    <span class="name">{{ .name }}</span>
+    <span class="price">{{ .price }}</span>
+  </dt>
+  <dd>{{ .description }}</dd>
+  {{ end }}
+</dl>
+{{ end }} {{ if .wines }}
+<table class="wines">
+  <thead>
+    <tr class="header">
+      <th></th>
+      <th>Bottle</th>
+      <th>Glass</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{ range .items }}
+    <tr class="odd">
+      <td class="name">{{ .name }}</td>
+      <td>{{ .price }}</td>
+      <td>{{ .price_glass }}</td>
+    </tr>
+    <tr class="even">
+      <td>{{ .description }}</td>
+      <td></td>
+      <td></td>
+    </tr>
+    {{ end }}
+  </tbody>
+</table>
+{{ end }}
