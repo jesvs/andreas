@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About-rsses on Andrea’s Italian</title>
-    <link>http://andreasitalian.com/about/index.xml</link>
-    <description>Recent content in About-rsses on Andrea’s Italian</description>
+    <title>Abouts on Andrea’s Italian</title>
+    <link>http://andreasitalian.com/about/</link>
+    <description>Recent content in Abouts on Andrea’s Italian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://andreasitalian.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://andreasitalian.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About</title>
@@ -14,31 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://andreasitalian.com/images/special-place.jpg#alignleft&#34; alt=&#34;Sepcial Place&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Andrea’s Italian&lt;/strong&gt; is a classic Italian Restaurant with comfortable neighborhood charm and destination-caliber
-cuisine. Using the best available local ingredients and property-grown organic herbs and vegetables, the daily
-changing menu features soulful classics of Italy Country, simply and earnestly prepared.&lt;/p&gt;
-
-&lt;p&gt;After 20 years of building successful restaurant, Alfonso Carmona has cut quite a wide swath in the culinary landscape.
-With Andrea’s, he makes his definitive season.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;“I’m not trying to build a new empire here,”&lt;/em&gt; says Alfonso.
-This is just all of my experience wrapped into four walls. My hope is that it will be a place my friends and family feel comfortable in.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Hundreds of people across the city have enjoyed visiting &lt;strong&gt;Andreas’s Italian&lt;/strong&gt; restaurants, though many
-are likely to recognize the establishments before they recognize the man.&lt;/p&gt;
-
-&lt;p&gt;Alfonso determined to reopen the facility with modest but substantive changes to the menu and atmosphere. He found
-and retained the best people on the staff, most of whom had over 20 years experience, and started to rebuild.&lt;/p&gt;
-
-&lt;p&gt;Andreas’s commitment is to consistently deliver good food at a fair price quickly and efficiently with a great attitude.
-He has staked his very life and livelihood in this venture.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://andreasitalian.com/images/gl_AR8E8850.jpg&#34; alt=&#34;Andrea’s Italian&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Andrea’s Italian is a classic Italian Restaurant with comfortable neighborhood charm and destination-caliber cuisine. Using the best available local ingredients and property-grown organic herbs and vegetables, the daily changing menu features soulful classics of Italy Country, simply and earnestly prepared.
+After 20 years of building successful restaurant, Alfonso Carmona has cut quite a wide swath in the culinary landscape. With Andrea’s, he makes his definitive season.
+ “I’m not trying to build a new empire here,” says Alfonso.</description>
     </item>
     
   </channel>

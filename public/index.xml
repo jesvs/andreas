@@ -2,11 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrea’s Italian</title>
-    <link>http://andreasitalian.com/index.xml</link>
+    <link>http://andreasitalian.com/</link>
     <description>Recent content on Andrea’s Italian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://andreasitalian.com/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://andreasitalian.com/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>About</title>
@@ -14,31 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/about/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://andreasitalian.com/images/special-place.jpg#alignleft&#34; alt=&#34;Sepcial Place&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Andrea’s Italian&lt;/strong&gt; is a classic Italian Restaurant with comfortable neighborhood charm and destination-caliber
-cuisine. Using the best available local ingredients and property-grown organic herbs and vegetables, the daily
-changing menu features soulful classics of Italy Country, simply and earnestly prepared.&lt;/p&gt;
-
-&lt;p&gt;After 20 years of building successful restaurant, Alfonso Carmona has cut quite a wide swath in the culinary landscape.
-With Andrea’s, he makes his definitive season.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;“I’m not trying to build a new empire here,”&lt;/em&gt; says Alfonso.
-This is just all of my experience wrapped into four walls. My hope is that it will be a place my friends and family feel comfortable in.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Hundreds of people across the city have enjoyed visiting &lt;strong&gt;Andreas’s Italian&lt;/strong&gt; restaurants, though many
-are likely to recognize the establishments before they recognize the man.&lt;/p&gt;
-
-&lt;p&gt;Alfonso determined to reopen the facility with modest but substantive changes to the menu and atmosphere. He found
-and retained the best people on the staff, most of whom had over 20 years experience, and started to rebuild.&lt;/p&gt;
-
-&lt;p&gt;Andreas’s commitment is to consistently deliver good food at a fair price quickly and efficiently with a great attitude.
-He has staked his very life and livelihood in this venture.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://andreasitalian.com/images/gl_AR8E8850.jpg&#34; alt=&#34;Andrea’s Italian&#34; /&gt;&lt;/p&gt;
-</description>
+      <description>Andrea’s Italian is a classic Italian Restaurant with comfortable neighborhood charm and destination-caliber cuisine. Using the best available local ingredients and property-grown organic herbs and vegetables, the daily changing menu features soulful classics of Italy Country, simply and earnestly prepared.
+After 20 years of building successful restaurant, Alfonso Carmona has cut quite a wide swath in the culinary landscape. With Andrea’s, he makes his definitive season.
+ “I’m not trying to build a new empire here,” says Alfonso.</description>
     </item>
     
     <item>
@@ -47,98 +27,7 @@ He has staked his very life and livelihood in this venture.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/gallery/</guid>
-      <description>&lt;p&gt;&lt;style type=&#34;text/css&#34;&gt;
-    #gallery-1 {
-        margin: auto;
-    }
-    #gallery-1 .gallery-item {
-        float: left;
-        margin-top: 10px;
-        text-align: center;
-        width: 25%;
-    }
-    #gallery-1 img {
-        border: 2px solid #cfcfcf;
-    }
-    #gallery-1 .gallery-caption {
-        margin-left: 0;
-    }
-&lt;/style&gt;
-&lt;div id=&#34;gallery-1&#34; class=&#34;gallery galleryid-9 gallery-columns-4 gallery-size-thumbnail&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1156.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1156-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1170.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1170-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1173.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1173-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1184.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1184-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon portrait&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1203.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1203-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon portrait&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1216.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1216-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1221.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1221-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1273.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1273-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1279.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1279-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1287.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1287-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1291.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1291-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1303.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1303-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1308.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1308-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8653.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8653-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8660.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8660-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8673.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8673-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8705.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8705-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8795.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8795-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8850.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8850-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8865.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8865-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8869.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8869-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8874.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8874-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E1340.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E1340-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;dl class=&#34;gallery-item&#34;&gt;
-    &lt;dt class=&#34;gallery-icon landscape&#34;&gt;
-        &lt;a href=&#34;http://andreasitalian.com/images/gl_AR8E8802.jpg&#34; rel=&#34;gallery-1&#34;&gt;&lt;img width=&#34;150&#34; height=&#34;150&#34; src=&#34;http://andreasitalian.com/images/gl_AR8E8802-150x150.jpg&#34; class=&#34;attachment-thumbnail size-thumbnail&#34; alt=&#34;Andrea’s Italian&#34;&gt;&lt;/a&gt;
-    &lt;/dt&gt;&lt;/dl&gt;&lt;br style=&#34;clear: both&#34;&gt;
-&lt;/div&gt;&lt;/p&gt;
-</description>
+      <description>#gallery-1 { margin: auto; } #gallery-1 .gallery-item { float: left; margin-top: 10px; text-align: center; width: 25%; } #gallery-1 img { border: 2px solid #cfcfcf; } #gallery-1 .gallery-caption { margin-left: 0; }</description>
     </item>
     
     <item>
@@ -147,10 +36,8 @@ He has staked his very life and livelihood in this venture.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/location/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;880&#34; height=&#34;500&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=7260+Gaston+Avenue&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=58.598104,135.263672&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=7260+Gaston+Ave,+Dallas,+Texas+75214&amp;amp;ll=32.812598,-96.731787&amp;amp;spn=0.036068,0.075531&amp;amp;z=14&amp;amp;iwloc=A&amp;amp;output=embed&#34;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;&lt;a href=&#34;https://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=7260+Gaston+Avenue&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=58.598104,135.263672&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=7260+Gaston+Ave,+Dallas,+Texas+75214&amp;amp;ll=32.812598,-96.731787&amp;amp;spn=0.036068,0.075531&amp;amp;z=14&amp;amp;iwloc=A&#34; style=&#34;color:#0000FF;text-align:left&#34;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;7260 Gaston Ave, Dallas, TX 75214&lt;/p&gt;
-</description>
+      <description>View Larger Map
+7260 Gaston Ave, Dallas, TX 75214</description>
     </item>
     
     <item>
@@ -159,8 +46,7 @@ He has staked his very life and livelihood in this venture.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/menu/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://andreasitalian.com/images/andreas-organic.png&#34; alt=&#34;Organic chicken and salads&#34; /&gt;&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -169,44 +55,7 @@ He has staked his very life and livelihood in this venture.&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/reviews/</guid>
-      <description>&lt;dl class=&#34;reviews&#34;&gt;
-    &lt;dt&gt;
-        &lt;span class=&#34;stars&#34;&gt;★★★★★&lt;/span&gt;
-        &lt;span class=&#34;date&#34;&gt;Aug 8, 2016&lt;/span&gt;
-        &lt;span class=&#34;name&#34;&gt;by Chuck Sheffield&lt;/span&gt;
-    &lt;/dt&gt;
-    &lt;dd&gt;
-        We spent the wife&#39;s Birthday evening at the new location with the most excellent service possible. The food seems even better than the old location which was always wonderful. It&#39;s larger but hasn&#39;t lost the personality of a special place to go sit, talk and enjoy a nice dinner at a very affordable price. It&#39;s a jewel. Congrat&#39;s.
-    &lt;/dd&gt;
-
-    &lt;dt&gt;
-        &lt;span class=&#34;stars&#34;&gt;★★★★★&lt;/span&gt;
-        &lt;span class=&#34;date&#34;&gt;Aug 8, 2016&lt;/span&gt;
-        &lt;span class=&#34;name&#34;&gt;by Omar&lt;/span&gt;
-    &lt;/dt&gt;
-    &lt;dd&gt;
-        Simple delicious!!! and good service. Clean, the wines exquisite!!!
-    &lt;/dd&gt;
-
-    &lt;dt&gt;
-        &lt;span class=&#34;stars&#34;&gt;★★★★★&lt;/span&gt;
-        &lt;span class=&#34;date&#34;&gt;Aug 8, 2016&lt;/span&gt;
-        &lt;span class=&#34;name&#34;&gt;by Esmeralda Quiroga&lt;/span&gt;
-    &lt;/dt&gt;
-    &lt;dd&gt;
-        You&#39;re food is delicious, cooked just right. Your service over all is awesome!
-    &lt;/dd&gt;
-
-    &lt;dt&gt;
-        &lt;span class=&#34;stars&#34;&gt;★★★★★&lt;/span&gt;
-        &lt;span class=&#34;date&#34;&gt;Jul 9, 2013&lt;/span&gt;
-        &lt;span class=&#34;name&#34;&gt;by Celia Bustamante&lt;/span&gt;
-    &lt;/dt&gt;
-    &lt;dd&gt;
-        Excellent taste, quality, service, soft music a perfect place to enjoy a romantic dinner or celebrating with family and best of all it&#39;s own Chef greets you at your table....my favorite plate (=Angel hair pasta with shrimps and lobster sauce, mmmmm Delicious!!! = )
-    &lt;/dd&gt;
-&lt;/dl&gt;
-</description>
+      <description>★★★★★ Aug 8, 2016 by Chuck Sheffield   We spent the wife&#39;s Birthday evening at the new location with the most excellent service possible. The food seems even better than the old location which was always wonderful. It&#39;s larger but hasn&#39;t lost the personality of a special place to go sit, talk and enjoy a nice dinner at a very affordable price. It&#39;s a jewel. Congrat&#39;s.   ★★★★★ Aug 8, 2016 by Omar   Simple delicious!</description>
     </item>
     
   </channel>

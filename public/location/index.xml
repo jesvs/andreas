@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Location-rsses on Andrea’s Italian</title>
-    <link>http://andreasitalian.com/location/index.xml</link>
-    <description>Recent content in Location-rsses on Andrea’s Italian</description>
+    <title>Locations on Andrea’s Italian</title>
+    <link>http://andreasitalian.com/location/</link>
+    <description>Recent content in Locations on Andrea’s Italian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://andreasitalian.com/location/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://andreasitalian.com/location/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Location</title>
@@ -14,10 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://andreasitalian.com/location/</guid>
-      <description>&lt;p&gt;&lt;iframe width=&#34;880&#34; height=&#34;500&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34; marginheight=&#34;0&#34; marginwidth=&#34;0&#34; src=&#34;https://maps.google.com/maps?f=q&amp;amp;source=s_q&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=7260+Gaston+Avenue&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=58.598104,135.263672&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=7260+Gaston+Ave,+Dallas,+Texas+75214&amp;amp;ll=32.812598,-96.731787&amp;amp;spn=0.036068,0.075531&amp;amp;z=14&amp;amp;iwloc=A&amp;amp;output=embed&#34;&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;&lt;a href=&#34;https://maps.google.com/maps?f=q&amp;amp;source=embed&amp;amp;hl=en&amp;amp;geocode=&amp;amp;q=7260+Gaston+Avenue&amp;amp;sll=37.0625,-95.677068&amp;amp;sspn=58.598104,135.263672&amp;amp;t=m&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=7260+Gaston+Ave,+Dallas,+Texas+75214&amp;amp;ll=32.812598,-96.731787&amp;amp;spn=0.036068,0.075531&amp;amp;z=14&amp;amp;iwloc=A&#34; style=&#34;color:#0000FF;text-align:left&#34;&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;7260 Gaston Ave, Dallas, TX 75214&lt;/p&gt;
-</description>
+      <description>View Larger Map
+7260 Gaston Ave, Dallas, TX 75214</description>
     </item>
     
   </channel>
