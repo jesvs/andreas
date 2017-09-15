@@ -27,7 +27,7 @@ $(document).ready(function () {
       return this.context.firstChild.attributes.alt.textContent;
     }
   });
-  //cycle.cycle('pause');
+  cycle.cycle('pause');
 
   var d = new Date();
   var dayOfWeek = d.getDay();
