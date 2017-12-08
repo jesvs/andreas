@@ -2,3 +2,4 @@ baseurl = "http://andreasitalian.com/"
 languageCode = "en-us"
 title = "Andrea’s Italian"
 canonifyurls = true
+publishDir = "docs"
