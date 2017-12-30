@@ -1,0 +1,99 @@
+---
+categories:
+  - title: White Wines
+    wines: true
+    items:
+      - name: Salmon Creek White Zinfandel
+        price: $23
+        price_glass: $6.50
+        description: Spicy strawberry and citrus aromas with bright acidity and a touch of sweetness.
+      - name: Cadonini Pinot Grigio
+        price: $26
+        price_glass: $7
+        description: Lush and full-bodied with a light, fruity, finishing clean and tart.
+      - name: Colosi Bianco, Italy
+        price: $30
+        description: Ripe apricot and apple aromas and touch of acidity give good balance.
+      - name: Santa Carolina Sauvignon Blane, Chile
+        price: $29
+        description: Bright tropical fruits up front with a tart, citrus finish.
+      - name: Salmon Creek Chardonnay, California
+        price: $23
+        price_glass: $6.75
+        description: Tropical flavors with a touch of spice and a full-bodied finish.
+      - name: Arancio Chardonnay, Sicily
+        price: $30
+        description: Crisp apple flavors with sof acidity and ripe melon and honey aromas due to the blending of viognier.
+      - name: Chalone Monterey Chardonnay, California
+        price: $30
+        description: Citrus and green apple aromas are balanced with spice, carmel and vanilla on the finish.
+  - title: Red Wines
+    wines: true
+    items:
+      - name: Sartori Pinot Noir, Italy
+        price: $29
+        price_glass: $7.75
+        description: Expressive ripe red fruit aromas are forward and delicious while the wine finishes soft and supple.
+      - name: Castle Rock Pinot Noir,California
+        price: $30
+        description: A balance between tart cherry flavors and earthy aromas.
+      - name: Salmon Creek Merlot, California
+        price: $23
+        price_glass: $6.75
+        description: Smooth, subtle cherry and blueberry fruit leading into a finish of vanilla and chocolate.
+      - name: Cono Sur Merlot, Chile
+        price: $30
+        description: Dark, tart berry fruit, licorice and spice with an easy finish of sweet oak.
+      - name: Kris Pinot Noir, Italy
+        price: $36
+        description: Dark ruby red in color with purple hues. Shows aromas of ripe blackberries.
+      - name: Querciavalle Chianti Classico, Tuscany
+        price: $54
+        description: Ripe, full berry fruite, up front with cocoa and a touch of dryness on the finish.
+      - name: Penfolds Shiraz, Australia
+        price: $29
+        description: Red berry, plum and black pepper aromas mingled with cocoa and spice.
+      - name: Tierra Secreta Malbee, Argentina
+        price: $34
+        description: Dark with a taste of black currant, raspberry flavors.
+      - name: Viteo, Spain
+        price: $32
+        description: This 100% tempranillo wine shows bright cherry fruit balanced with acidity and earthy aromas finishing with a subtle nuttiness.
+      - name: Castelvero Barbera d’Asti, Italy
+        price: $34
+        description: Light bodied and tart with red cherry and cassis fruit and touch of minerality on the finish.
+      - name: Piccini, Chianti, Italy
+        price: $23
+        price_glass: $6.75
+        description: Tart red cherry and raspberry flavors finish with smoke, dusty earth.
+      - name: Castello D’Abola Chianti Classico, Italy
+        price: $32
+        description: Delicious cherry flavors with good acid and a touch of vanilla.
+      - name: Queretaro Chianti Classico, Italy
+        price: $32
+        description: Intense fruit aromas with rich, well-structured berry flavors.
+      - name: Centine Rosso, Italy
+        price: $32
+        description: Lots of structure from a base of Sangiovese supported by the fruit aromas of Merlot and Cabernet.
+      - name: Trivento Reserve Malbee, Argentina
+        price: $32
+        description: Dark, dry fruit and earthy aromas give this wine depth and complexity.
+      - name: Bogle Petite Syrah, California
+        price: $32
+        description: Blackberry and plum flavors start rich and finish with a hint of white pepper and oak.
+      - name: Antigal Uno Malbee, Argentina
+        price: $32
+        description: A velvety blend of two varietals that creates a medium body and smooth finish.
+      - name: Salmon Creek Cabernet Sauvignon
+        price: $23
+        description: Medium body with berry, olive and vanilla flavors for a well-balanced wine.
+      - name: Santa Carolina Reserve Cabernet
+        price: $33
+        description: Sweet black currants dominate the flavor white the finish brings soft spice aromas and tannic structure.
+      - name: Chateau St. Jean Cabernet Sauvignon, California
+        price: $32
+        description: A rich wine with lots of blackberry and cassis with aromas of tobacco and cocoa leading into a well-structured vanilla and oak finish.
+      - name: Cavicchioli, Lambrusco
+        price: $23
+        price_glass: $6.50
+        description: Smooth and lush. A delicious ‘amabile’ wine with an intense ruby red color, and a generous froth.

@@ -201,6 +201,8 @@ header {
     color: white !important;
     margin-bottom: 20px;
     line-height: 2.8em; }
+  .content .subtitle {
+    text-align: center; }
   .content h3.category {
     text-align: center; }
   .content img {
@@ -236,14 +238,21 @@ header {
       .content dl.menu dt .name {
         float: left;
         padding-right: 4px;
-        text-transform: uppercase;
-        font-weight: 900; }
+        font-weight: 900;
+        color: #4e4538; }
       .content dl.menu dt .price {
         float: right;
         text-align: right;
         padding-left: 4px; }
     .content dl.menu dd {
       margin: 0 0 20px 0; }
+      .content dl.menu dd ul.variants {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 13px; }
+        .content dl.menu dd ul.variants .title {
+          font-weight: 900;
+          text-transform: uppercase; }
   .content.single {
     margin-bottom: 120px; }
     .content.single .body {
@@ -533,5 +542,18 @@ footer .main .column.business_hours {
   right: 20px;
   top: 20px;
   z-index: 1000; }
+
+.menu-title {
+  height: 80px;
+  text-indent: -9999px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .menu-title.lunch-menu {
+    background-image: url(../images/lunch-menu.png); }
+  .menu-title.dinner-menu {
+    background-image: url(../images/dinner-menu.png); }
+  .menu-title.wines-menu {
+    background-image: url(../images/wines-menu.png); }
 
 /*# sourceMappingURL=style.css.map */

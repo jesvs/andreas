@@ -2,7 +2,16 @@
 <div class="content single">
   <div class="body">
     {{ .Content }}
-    {{ range $.Site.Data.menu.categories }}
+    <h1 class="title menu-title lunch-menu">Lunch Menu</h1>
+    {{ range $.Site.Data.lunch.categories }}
+      {{ partial "menu.html" . }}
+    {{ end }}
+    <h1 class="title menu-title dinner-menu">Dinner Menu</h1>
+    {{ range $.Site.Data.dinner.categories }}
+      {{ partial "menu.html" . }}
+    {{ end }}
+    <h1 class="title menu-title wines-menu">Wines Menu</h1>
+    {{ range $.Site.Data.wines.categories }}
       {{ partial "menu.html" . }}
     {{ end }}
   </div>

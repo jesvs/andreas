@@ -225,6 +225,10 @@ header {
     margin-bottom: $lineHeight;
     line-height: 2.8em;
   }
+  .subtitle {
+    text-align: center;
+  }
+
   h3.category {
     text-align: center;
   }
@@ -264,8 +268,8 @@ header {
       .name {
         float: left;
         padding-right: 4px;
-        text-transform: uppercase;
         font-weight: 900;
+        color: darken($lightText, 10);
       }
       .price {
         float: right;
@@ -275,6 +279,15 @@ header {
     }
     dd {
       margin: 0 0 $lineHeight 0;
+      ul.variants {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 $fontSize;
+        .title {
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+      }
     }
   }
   min-height: 284px;
@@ -596,4 +609,23 @@ footer {
   right: $lineHeight;
   top: $lineHeight;
   z-index: 1000;
+}
+
+.menu-title {
+  height: 80px;
+  text-indent: -9999px;
+  background: {
+    size: contain;
+    repeat: no-repeat;
+    position: center;
+  }
+  &.lunch-menu {
+    background-image: url(../images/lunch-menu.png);
+  }
+  &.dinner-menu {
+    background-image: url(../images/dinner-menu.png);
+  }
+  &.wines-menu {
+    background-image: url(../images/wines-menu.png);
+  }
 }

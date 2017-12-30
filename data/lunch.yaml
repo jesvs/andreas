@@ -1,0 +1,105 @@
+---
+categories:
+  - title: Appetizers
+    dishes: true
+    items:
+      - name: Fried Mozzarella
+        price: $5.95
+        description: Served with tomato marinara sauce.
+      - name: Shrimp Stella
+        price: $9.95
+        description: Served in a creamy lobster sauce with fresh crab meat or served with a white wine lemon butter sauce.
+      - name: Prosciutto
+        price: $7.95
+        description: Prosciutto served with slices of mozzarella.
+      - name: Smoked Salmon
+        price: $7.95
+        description: Served with a side of diced onions, capers, balsamic, olive oil and lemons.
+  - title: Salads
+    dishes: true
+    items:
+      - name: Cesar Salad With Chicken Breast.
+        price: $8.95
+        description: Romaine leaves tossed in a traditional Caesar dressing topped with croutons.
+      - name: Mozzarella Salad with Soup of the Day
+        price: $7.99
+        description: Fresh mozzarella with hearty tomatoes in basil, oregano and olive seasoning.
+  - title: Pastas
+    dishes: true
+    items:
+      - name: Linguine Carbonara
+        price: $8.95
+        description: Egg yolk, cream, bacon and parmesan cheese.
+      - name: Linguine Puttanesca
+        price: $9.95
+        description: Olive oil, capers, olives, bacon, fresh chopped tomatoes and anchovies.
+      - name: Linguine Alfredo Chicken Breast
+        price: $14.95 w/chicken, $9.95 w/shrimp
+        description: Pasta in a classic Romano cheese and cream sauce.
+      - name: Linguine Bolognese
+        price: $8.95
+        description: Served with ground beef in portabello mushrooms covered with marina sauce and parmesan cheese.
+      - name: Vegetarian Angel Hair
+        price: $8.95
+        description: Wheat angel hair pasta served with fresh sautéed veggies.
+      - name: Pasta Andrea
+        price: $9.95
+        description: Penne pasta with chicken mushroom in a pesto cream sauce and parmesan cheese.
+      - name: Ravioli
+        price: $8.95
+        description: Stuffed with mushrooms and spinach served in a cream lobster sauce.
+      - name: Angel Mussels Marinara
+        price: $8.95
+        description: Pasta with mussels in a tomato and white wine sauce.
+      - name: Italian Penne
+        price: $9.95
+        description: Served with fresh tomatoes, basil italian sauce and sausage.
+      - name: Chicken Portabello Risotto
+        price: $9.95
+        description: Italian rice with slices of chicken breast and portobello mushrooms served in a cream with parmesan cheese.
+      - name: Italian Classic Lasagna
+        price: $9.95
+        description: Prepared fresh daily with layers of pasta, Italian cheeses and our homemade meat sauce.
+      - name: Crespelle
+        price: $9.95
+        description: Stuffed with ricotta, spinach, mozzarella cheese and topped with cream sauce.
+      - name: Cavatelli
+        price: $9.95
+        description: Cavatelli pasta served with fresh tomato, basil, oregano, garlic and topped off with a sprinkle of fresh goat cheese.
+      - name: Penne Arrabiata
+        price: $8.95
+        description: Tossed with chicken and tomato basil sauce with crushed red pepper.
+      - name: Spinach Gnocchi Andrea
+        price: $9.95
+        description: Home made potato gnocchi scented with a touch of cinnamon and served with basil marinara or gorgonzola cream sauce.
+  - title: Entress
+    dishes: true
+    items:
+      - name: Pan Séered Tilapia
+        price: $11.95
+        description: With a white wine, lemon-butter sauce with capers ans shrimp or a la moda, olive oil, fresh basil and tomato.
+      - name: Grilled Atlantic Salmon Filet
+        price: $14.99
+        description: Served with creamy lobster sauce or a white wine, lemon-butter sauce.
+      - name: Egg-Plant Parmesan
+        price: $11.95
+        description: With mozzarella, parmesan and marinara sauce, served with house vegetables.
+      - name: Pork Loin Scaloppine
+        price: $11.95
+        description: Served in a red wine demi-glazed sauce with green pepper corns and portobello mushrooms.
+      - name: Chicken Milanesa
+        price: $10.95
+        description: Baked chicken served with a lemon-butter sauce.
+      - name: Chicken Parmesan
+        price: $11.95
+        description: Baked with mozzarella, parmesan and marinara sauce.
+      - name: Chicken Breast Cordon Bleu
+        price: $11.95
+        description: Covered with slices of ham and cheese, topped with a cream sauce
+      - name: Sautée Chicken Breast
+        price: $10.95
+        variants_title: Choose from
+        variants:
+          - description: Picatta sauce with white wine, lemon-butter sauce and capers.
+          - description: Demi-Glaze sauce with portobello mushrooms.
+          - description: Tomatillo marinara, toasted chiles and green tomatillo sauce.

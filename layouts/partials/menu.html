@@ -1,4 +1,7 @@
 <h2 class="ribbon">{{ .title }}</h2>
+{{ if .subtitle }}
+<h3 class="subtitle">{{ .subtitle }}</h3>
+{{ end }}
 
 {{ if .dishes }}
 <dl class="menu">
@@ -7,10 +10,22 @@
     <span class="name">{{ .name }}</span>
     <span class="price">{{ .price }}</span>
   </dt>
-  <dd>{{ .description }}</dd>
+  <dd>
+    {{ if .variants }}
+      <ul class="variants">
+        <li class="title">{{ .variants_title }}</li>
+        {{ range .variants }}
+          <li>{{ .description }}</li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      {{ .description }}
+    {{ end }}
+  </dd>
   {{ end }}
 </dl>
-{{ end }} {{ if .wines }}
+{{ end }}
+{{ if .wines }}
 <table class="wines">
   <thead>
     <tr class="header">
