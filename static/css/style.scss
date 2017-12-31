@@ -280,13 +280,13 @@ header {
     dd {
       margin: 0 0 $lineHeight 0;
       ul.variants {
-        list-style: none;
         margin: 0;
         padding: 0 0 0 $fontSize;
-        .title {
-          font-weight: 900;
-          text-transform: uppercase;
-        }
+      }
+      p.title {
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 0;
       }
     }
   }
@@ -628,4 +628,10 @@ footer {
   &.wines-menu {
     background-image: url(../images/wines-menu.png);
   }
+}
+
+.menu-notice {
+  text-align: right;
+  font-size: 10px;
+  color: lighten($lightText, 20);
 }

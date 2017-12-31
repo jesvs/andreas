@@ -12,12 +12,12 @@
   </dt>
   <dd>
     {{ if .variants }}
-      <ul class="variants">
-        <li class="title">{{ .variants_title }}</li>
+      <p class="title">{{ .variants_title }}</p>
+      <ol class="variants">
         {{ range .variants }}
           <li>{{ .description }}</li>
         {{ end }}
-      </ul>
+      </ol>
     {{ else }}
       {{ .description }}
     {{ end }}

@@ -14,6 +14,8 @@
     {{ range $.Site.Data.wines.categories }}
       {{ partial "menu.html" . }}
     {{ end }}
+
+    <div class="menu-notice">All published prices are subject to change without notice.</div>
   </div>
 </div>
 {{ partial "footer.html" . }}
