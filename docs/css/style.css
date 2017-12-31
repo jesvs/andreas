@@ -247,12 +247,12 @@ header {
     .content dl.menu dd {
       margin: 0 0 20px 0; }
       .content dl.menu dd ul.variants {
-        list-style: none;
         margin: 0;
         padding: 0 0 0 13px; }
-        .content dl.menu dd ul.variants .title {
-          font-weight: 900;
-          text-transform: uppercase; }
+      .content dl.menu dd p.title {
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 0; }
   .content.single {
     margin-bottom: 120px; }
     .content.single .body {
@@ -555,5 +555,10 @@ footer .main .column.business_hours {
     background-image: url(../images/dinner-menu.png); }
   .menu-title.wines-menu {
     background-image: url(../images/wines-menu.png); }
+
+.menu-notice {
+  text-align: right;
+  font-size: 10px;
+  color: #a1937e; }
 
 /*# sourceMappingURL=style.css.map */
